@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(255, 240, 238);
+}
+
+/* Es bueno aplicar estilos en un órden de arriba hacia abajo */
+
+h1 {
+  text-decoration: underline;
+  color: red;
+  text-align: center;
+  font-size: 48px;
+}
+
+.parrafo-introduccion {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.img-golden-gate {
+  width: 600px;
+  border-radius: 20px;
+  display: block;
+  margin: 100px 0 100px 0;
+}
