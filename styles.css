@@ -2,6 +2,52 @@ body {
   background-color: rgb(255, 240, 238);
 }
 
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: burlywood;
+  align-items: center;
+}
+
+.logo-img {
+  width: 120px;
+  height: auto;
+}
+
+.botones-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* Esto es lo que hace que estén en horizontal */
+  display: flex;
+  flex-direction: row;
+}
+
+.botones-menu ul li {
+  padding-left: 2rem;
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.botones-menu ul li:hover {
+  padding-left: 2rem;
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+  list-style-type: none;
+  cursor: pointer;
+  color: red;
+}
+
+.bloqueUno {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Es bueno aplicar estilos en un órden de arriba hacia abajo */
 
 h1 {
