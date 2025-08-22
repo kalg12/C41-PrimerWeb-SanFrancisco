@@ -69,3 +69,10 @@ h1 {
   display: block;
   margin: 100px 0 100px 0;
 }
+
+/* SECCION DE NOSOTROS */
+
+.nosotros {
+  margin-left: 60px;
+  margin-right: 60px;
+}
