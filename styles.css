@@ -76,3 +76,29 @@ h1 {
   margin-left: 60px;
   margin-right: 60px;
 }
+
+/* Galería */
+.galeria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+}
+
+.parent img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.parent article h4 {
+  text-align: center;
+}
